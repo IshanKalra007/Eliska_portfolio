@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PROJECTS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            padding: 15px 20px;
+            color: white;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: antiquewhite;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: #999;
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        .nav-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: black;
+            color: antiquewhite;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 2px solid white;
+        }
+        .nav-button:hover {
+            background-color: #333;
+        }
+        .work-page {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .main-title {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: antiquewhite;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: nowrap;
+        }
+        .video-item {
+            background: floralwhite;
+            padding: 20px;
+
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 45%;
+            color: black;
+        }
+        video {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        h3 {
+            margin-top: 10px;
+            font-size: 22px;
+            color: black;
+        }
+        p {
+            font-size: 16px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <h1 class="logo">Eliska Janska</h1>
+            <nav>
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contacts.html">Contact Info</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="nav-buttons">
+        <a href="Next_page.html" class="nav-button">&lt;</a>
+        <a href="Page_4.html" class="nav-button">Next Page</a>
+    </div>
+
+    <section class="work-page">
+        <h1 class="main-title">MY PROJECTS</h1>
+        <div class="video-container">
+            <div class="video-item">
+                <video controls>
+                    <source src="MSR%20(1).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Medical Students Report (May 2024)
+</h3>
+                 <p>As the UK’s NHS faces a staffing crisis, many medical students are considering leaving the country for better opportunities abroad. This report captures their perspectives, exploring the factors driving them to seek careers elsewhere and the potential consequences for the NHS.
+
+Through interviews with medical students, this video presents firsthand accounts of their concerns and aspirations, shedding light on a growing issue in the UK healthcare system.
+
+</p>
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="NUTRI.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Nutritank Cooking Lesson (December 2023)
+</h3>
+              <p>This video was featured in an article on my personal WordPress website, which focused on student access to affordable and nutritious food in Newcastle. The platform aimed to inform students about local food initiatives and practical ways to maintain a healthy diet on a budget.
+
+As part of this project, I wrote articles exploring cooking classes and student-friendly meal options while also managing an Instagram account to engage with the audience and keep them updated on food-related resources.
+</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+

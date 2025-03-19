@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PROJECTS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            padding: 15px 20px;
+            color: white;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: antiquewhite;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: #999;
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        .nav-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: black;
+            color: antiquewhite;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 2px solid white;
+        }
+        .nav-button:hover {
+            background-color: #333;
+        }
+        .work-page {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .main-title {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: antiquewhite;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: nowrap;
+        }
+        .video-item {
+            background: floralwhite;
+            padding: 20px;
+
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 45%;
+            color: black;
+        }
+        video {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        h3 {
+            margin-top: 10px;
+            font-size: 22px;
+            color: black;
+        }
+        p {
+            font-size: 16px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <h1 class="logo">Eliska Janska</h1>
+            <nav>
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contacts.html">Contact Info</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="nav-buttons">
+        <a href="PAGE_3.html" class="nav-button">&lt;</a>
+
+    </div>
+
+    <section class="work-page">
+        <h1 class="main-title">MY PROJECTS</h1>
+        <div class="video-container">
+            <div class="video-item">
+                <video controls>
+                    <source src="GlobeCafe%20(December%202023).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Globe Café (December 2023)
+</h3>
+                 <p>Featured on my personal WordPress website, this video showcases Globe Café, a student-focused initiative aimed at fostering cultural exchange and community among international students in Newcastle.
+
+This project was part of a broader effort to provide accessible information about student life, affordable food, and community-building opportunities through both written and visual storytelling.
+
+</p>
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="Study%20Abroad%20(December%202022).mp4.crdownload" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Study Abroad (December 2022)
+</h3>
+              <p>This project marked my first experience with camera operation, interviews, and video editing. Created for a Microsoft Sway presentation, the video aimed to inform prospective international students about the opportunities and challenges of studying abroad.
+
+The piece explores how access to education has evolved, emphasising the UK as a destination that offers not only globally recognised degrees but also invaluable life experiences. Through interviews with international students at Newcastle University, the video provides insights into their journeys, highlighting both the benefits and financial challenges of studying abroad.
+</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
